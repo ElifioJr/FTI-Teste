@@ -1,0 +1,11 @@
+*.targets
+*.dll
+*.cache
+*.Up2Date
+*.pdb
+AssemblyInfo.cs
+*.exe
+*.config
+*.v2
+*.vsidx
+*.BuildWithSkipAnalyzers
