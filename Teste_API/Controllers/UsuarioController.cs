@@ -4,7 +4,7 @@ using Teste_API.Servico;
 
 namespace Teste_API.Controllers
 {
-    [Route("controller/")]
+    [Route("[controller]/")]
     public class UsuarioController : Controller
     {
         UsuarioServico service = new UsuarioServico();

@@ -14,6 +14,15 @@ namespace Teste_API
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+
+            builder.Services.AddCors(options =>
+            {
+                options.AddPolicy("App", builder =>
+                {
+                    builder.AllowAnyHeader().AllowAnyOrigin().AllowAnyMethod();
+                });
+            });
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -27,6 +36,7 @@ namespace Teste_API
 
             app.UseAuthorization();
 
+            app.UseCors("App");
 
             app.MapControllers();
 

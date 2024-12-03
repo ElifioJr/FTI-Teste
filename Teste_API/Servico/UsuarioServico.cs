@@ -9,7 +9,8 @@ public class UsuarioServico
 
     public Usuario Cadastro(InputUsuario usuario)
     {
-        Usuario user = new Usuario(); 
+        Usuario user = new Usuario();
+        user.idusuario = usuario.idusuario;
         user.nome = usuario.nome;
         user.email = usuario.email;
         user.sexo = usuario.sexo;

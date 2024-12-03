@@ -2,6 +2,7 @@
 
 public class InputUsuario
 {
+    public int idusuario {  get; set; }
     public string nome { get; set; }
     public string sexo { get; set; }
     public string senha { get; set; }
