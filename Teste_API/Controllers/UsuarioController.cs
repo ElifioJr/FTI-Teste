@@ -37,6 +37,13 @@ namespace Teste_API.Controllers
             return att;
         }
 
+        [HttpGet("ObterId")]
+        public int ObterId(int Id)
+        {
+            var att = service.ObterId(Id);
+            return att;
+        }
+
 
     }
 }

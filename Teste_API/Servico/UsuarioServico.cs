@@ -47,5 +47,11 @@ public class UsuarioServico
         return usuarioAtualizado;
     }
 
+    public int ObterId(int Id)
+    {
+        var usuarioId = repos.ObterId(Id);
+        return usuarioId;
+    }
+
 
 }

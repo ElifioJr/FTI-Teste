@@ -80,4 +80,19 @@ public class UsuarioRepositorio
             return usuario;
         }
     }
+
+    public int ObterId(int Id)
+    {
+        using (var connection = data._conectaBanco())
+        {
+            connection.Open();
+            connection.Execute($"""
+               SELECT *  from teste.usuario
+               WHERE idusuario = {Id}   
+               """);
+            connection.Close();
+
+            return Id;
+        }
+    }
 }
