@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\ReposFTI\\FTI\\FTI-Teste\\Teste_API\\Teste_API.csproj": {}
+    "C:\\Repos-FTI\\Teste-FTI\\Api\\FTI-Teste\\Teste_API\\Teste_API.csproj": {}
   },
   "projects": {
-    "C:\\ReposFTI\\FTI\\FTI-Teste\\Teste_API\\Teste_API.csproj": {
+    "C:\\Repos-FTI\\Teste-FTI\\Api\\FTI-Teste\\Teste_API\\Teste_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\ReposFTI\\FTI\\FTI-Teste\\Teste_API\\Teste_API.csproj",
+        "projectUniqueName": "C:\\Repos-FTI\\Teste-FTI\\Api\\FTI-Teste\\Teste_API\\Teste_API.csproj",
         "projectName": "Teste_API",
-        "projectPath": "C:\\ReposFTI\\FTI\\FTI-Teste\\Teste_API\\Teste_API.csproj",
-        "packagesPath": "C:\\Users\\Elifio\\.nuget\\packages\\",
-        "outputPath": "C:\\ReposFTI\\FTI\\FTI-Teste\\Teste_API\\obj\\",
+        "projectPath": "C:\\Repos-FTI\\Teste-FTI\\Api\\FTI-Teste\\Teste_API\\Teste_API.csproj",
+        "packagesPath": "C:\\Users\\DDTan\\.nuget\\packages\\",
+        "outputPath": "C:\\Repos-FTI\\Teste-FTI\\Api\\FTI-Teste\\Teste_API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Elifio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DDTan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -86,7 +86,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

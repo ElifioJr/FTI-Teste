@@ -11,7 +11,7 @@ public class Contexto
 
     public Contexto()
     {
-        _stringConexao = $"Server=127.0.0.1;Database=teste;User Id=root;Password=123456;";
+        _stringConexao = $"Server=127.0.0.1;Database=teste;User Id=root;Password=Flyngturtle741-;";
     }
 
     public IDbConnection _conectaBanco()

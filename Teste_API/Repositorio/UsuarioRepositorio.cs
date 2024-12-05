@@ -73,7 +73,7 @@ public class UsuarioRepositorio
             connection.Execute($"""
                UPDATE teste.usuario
                SET nome = '{usuario.nome}', email = '{usuario.email}', sexo = '{usuario.sexo}', idade = '{usuario.idade}', senha = '{usuario.senha}'
-               WHERE idusuario = {Id}   
+               WHERE usuario.idusuario = {Id}   
                """);
             connection.Close();
 
@@ -81,18 +81,19 @@ public class UsuarioRepositorio
         }
     }
 
-    public int ObterId(int Id)
+    public IEnumerable<Usuario> ObterId(int Id)
     {
         using (var connection = data._conectaBanco())
         {
             connection.Open();
-            connection.Execute($"""
-               SELECT *  from teste.usuario
-               WHERE idusuario = {Id}   
+            var usuarioId =
+                connection.Query<Usuario>($"""
+                SELECT * FROM teste.usuario
+                WHERE usuario.idusuario = {Id}
                """);
             connection.Close();
 
-            return Id;
+            return usuarioId;
         }
     }
 }

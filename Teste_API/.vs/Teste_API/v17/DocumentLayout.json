@@ -1,18 +1,18 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\ReposFTI\\FTI\\FTI-Teste\\Teste_API\\",
+  "WorkspaceRootPath": "C:\\Repos-FTI\\Teste-FTI\\Api\\FTI-Teste\\Teste_API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2BC34A36-4969-4891-923E-9E38B442E6C6}|Teste_API.csproj|c:\\reposfti\\fti\\fti-teste\\teste_api\\repositorio\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{2BC34A36-4969-4891-923E-9E38B442E6C6}|Teste_API.csproj|c:\\repos-fti\\teste-fti\\api\\fti-teste\\teste_api\\repositorio\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2BC34A36-4969-4891-923E-9E38B442E6C6}|Teste_API.csproj|solutionrelative:repositorio\\usuariorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BC34A36-4969-4891-923E-9E38B442E6C6}|Teste_API.csproj|c:\\reposfti\\fti\\fti-teste\\teste_api\\servico\\usuarioservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BC34A36-4969-4891-923E-9E38B442E6C6}|Teste_API.csproj|solutionrelative:servico\\usuarioservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2BC34A36-4969-4891-923E-9E38B442E6C6}|Teste_API.csproj|c:\\repos-fti\\teste-fti\\api\\fti-teste\\teste_api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC34A36-4969-4891-923E-9E38B442E6C6}|Teste_API.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2BC34A36-4969-4891-923E-9E38B442E6C6}|Teste_API.csproj|c:\\reposfti\\fti\\fti-teste\\teste_api\\controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2BC34A36-4969-4891-923E-9E38B442E6C6}|Teste_API.csproj|solutionrelative:controllers\\usuariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2BC34A36-4969-4891-923E-9E38B442E6C6}|Teste_API.csproj|c:\\repos-fti\\teste-fti\\api\\fti-teste\\teste_api\\servico\\usuarioservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2BC34A36-4969-4891-923E-9E38B442E6C6}|Teste_API.csproj|solutionrelative:servico\\usuarioservico.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +22,22 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UsuarioServico.cs",
+              "DocumentMoniker": "C:\\Repos-FTI\\Teste-FTI\\Api\\FTI-Teste\\Teste_API\\Servico\\UsuarioServico.cs",
+              "RelativeDocumentMoniker": "Servico\\UsuarioServico.cs",
+              "ToolTip": "C:\\Repos-FTI\\Teste-FTI\\Api\\FTI-Teste\\Teste_API\\Servico\\UsuarioServico.cs*",
+              "RelativeToolTip": "Servico\\UsuarioServico.cs*",
+              "ViewState": "AgIAABwAAAAAAAAAAIAwwCMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T15:24:09.207Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
@@ -32,37 +46,24 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "UsuarioRepositorio.cs",
-              "DocumentMoniker": "C:\\ReposFTI\\FTI\\FTI-Teste\\Teste_API\\Repositorio\\UsuarioRepositorio.cs",
+              "DocumentMoniker": "C:\\Repos-FTI\\Teste-FTI\\Api\\FTI-Teste\\Teste_API\\Repositorio\\UsuarioRepositorio.cs",
               "RelativeDocumentMoniker": "Repositorio\\UsuarioRepositorio.cs",
-              "ToolTip": "C:\\ReposFTI\\FTI\\FTI-Teste\\Teste_API\\Repositorio\\UsuarioRepositorio.cs",
+              "ToolTip": "C:\\Repos-FTI\\Teste-FTI\\Api\\FTI-Teste\\Teste_API\\Repositorio\\UsuarioRepositorio.cs",
               "RelativeToolTip": "Repositorio\\UsuarioRepositorio.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAADwvxMAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAwwEwAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T16:08:10.799Z",
+              "WhenOpened": "2024-12-05T13:49:02.499Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UsuarioServico.cs",
-              "DocumentMoniker": "C:\\ReposFTI\\FTI\\FTI-Teste\\Teste_API\\Servico\\UsuarioServico.cs",
-              "RelativeDocumentMoniker": "Servico\\UsuarioServico.cs",
-              "ToolTip": "C:\\ReposFTI\\FTI\\FTI-Teste\\Teste_API\\Servico\\UsuarioServico.cs",
-              "RelativeToolTip": "Servico\\UsuarioServico.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwCsAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-25T15:24:09.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "UsuarioController.cs",
-              "DocumentMoniker": "C:\\ReposFTI\\FTI\\FTI-Teste\\Teste_API\\Controllers\\UsuarioController.cs",
+              "DocumentMoniker": "C:\\Repos-FTI\\Teste-FTI\\Api\\FTI-Teste\\Teste_API\\Controllers\\UsuarioController.cs",
               "RelativeDocumentMoniker": "Controllers\\UsuarioController.cs",
-              "ToolTip": "C:\\ReposFTI\\FTI\\FTI-Teste\\Teste_API\\Controllers\\UsuarioController.cs",
+              "ToolTip": "C:\\Repos-FTI\\Teste-FTI\\Api\\FTI-Teste\\Teste_API\\Controllers\\UsuarioController.cs",
               "RelativeToolTip": "Controllers\\UsuarioController.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAQwBcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAASwCcAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-25T15:10:05.792Z",
               "EditorCaption": ""

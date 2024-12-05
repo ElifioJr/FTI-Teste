@@ -47,7 +47,7 @@ public class UsuarioServico
         return usuarioAtualizado;
     }
 
-    public int ObterId(int Id)
+    public IEnumerable<Usuario> ObterId(int Id)
     {
         var usuarioId = repos.ObterId(Id);
         return usuarioId;

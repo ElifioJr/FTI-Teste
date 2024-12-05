@@ -38,7 +38,7 @@ namespace Teste_API.Controllers
         }
 
         [HttpGet("ObterId")]
-        public int ObterId(int Id)
+        public IEnumerable<Usuario> ObterId(int Id)
         {
             var att = service.ObterId(Id);
             return att;
